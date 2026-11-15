@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap for Boyana Shilpa & Radha Gopinath Bastralaya, Swargadwar, Puri
+Sitemap: /sitemap.xml
