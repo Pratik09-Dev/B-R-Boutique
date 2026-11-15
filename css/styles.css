@@ -1,0 +1,70 @@
+body {
+      background-color: #FAF6F0;
+      color: #182235;
+      font-family: 'Plus Jakarta Sans', 'Noto Sans Odia', 'Noto Sans Devanagari', 'Inter', system-ui, sans-serif;
+    }
+    /* Authentic Odisha Sambalpuri Pasapalli & Katki Bandha Ikat Saree Borders & Woven Background */
+    body {
+      background-color: #FAF6F0;
+      background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23B83B2A' stroke-opacity='0.055' stroke-width='1'%3E%3Cpath d='M32 6L58 32L32 58L6 32Z'/%3E%3Cpath d='M32 16L48 32L32 48L16 32Z' stroke='%23C59B48' stroke-opacity='0.07'/%3E%3Ccircle cx='32' cy='32' r='2.5' fill='%23B83B2A' fill-opacity='0.05'/%3E%3C/g%3E%3C/svg%3E");
+    }
+    /* Traditional Sambalpuri Pasapalli Diamond & Katki Kumbha Temple Border Band */
+    .ikat-divider {
+      background-color: #182235;
+      background-image: url("data:image/svg+xml,%3Csvg width='48' height='14' viewBox='0 0 48 14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 14L6 3L12 14Z' fill='%23B83B2A'/%3E%3Cpath d='M12 14L18 3L24 14Z' fill='%23C59B48'/%3E%3Cpath d='M24 7L30 1L36 7L30 13Z' fill='%23FAF6F0'/%3E%3Ccircle cx='30' cy='7' r='2' fill='%23B83B2A'/%3E%3Cpath d='M36 14L42 3L48 14Z' fill='%23C59B48'/%3E%3C/svg%3E");
+      background-repeat: repeat-x;
+      background-size: 48px 14px;
+      height: 14px;
+      border-top: 1.5px solid #C59B48;
+      border-bottom: 1.5px solid #B83B2A;
+    }
+    /* Fine Katki & Sambalpuri Saree Border Strip for Cards & Panels */
+    .sambalpuri-card-border {
+      background-color: #8E2418;
+      background-image: url("data:image/svg+xml,%3Csvg width='32' height='10' viewBox='0 0 32 10' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 10L5 2L10 10Z' fill='%23FAF6F0' fill-opacity='0.9'/%3E%3Cpath d='M16 1L21 5L16 9L11 5Z' fill='%23C59B48'/%3E%3Cpath d='M22 10L27 2L32 10Z' fill='%23FAF6F0' fill-opacity='0.9'/%3E%3C/svg%3E");
+      background-repeat: repeat-x;
+      background-size: 32px 10px;
+      height: 10px;
+    }
+    .loom-backdrop {
+      background-image:
+        url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23B83B2A' stroke-opacity='0.07' stroke-width='1.1'%3E%3Cpath d='M40 8L72 40L40 72L8 40Z'/%3E%3Cpath d='M40 20L60 40L40 60L20 40Z' stroke='%23182235' stroke-opacity='0.05'/%3E%3Cpath d='M40 30L50 40L40 50L30 40Z' fill='%23C59B48' fill-opacity='0.06'/%3E%3C/g%3E%3C/svg%3E");
+    }
+    .hangtag-card {
+      position: relative;
+      border-left: 4px solid #B83B2A;
+    }
+    .glass-nav {
+      background: rgba(250, 246, 240, 0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    .card-lift {
+      transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.3s ease;
+    }
+    .card-lift:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 40px -15px rgba(24, 34, 53, 0.14);
+    }
+    /* Prevent Odia & Devanagari matra/conjunct vertical clipping or overlap */
+    html[lang="or"] h1, html[lang="or"] h2, html[lang="or"] h3,
+    html[lang="hi"] h1, html[lang="hi"] h2, html[lang="hi"] h3 {
+      line-height: 1.48 !important;
+      letter-spacing: 0 !important;
+    }
+    html[lang="or"] p, html[lang="hi"] p {
+      line-height: 1.75 !important;
+    }
+    html[lang="or"] .italic, html[lang="hi"] .italic {
+      font-style: normal !important;
+    }
+    section[id] {
+      scroll-margin-top: 5rem;
+    }
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
